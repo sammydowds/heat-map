@@ -1,8 +1,7 @@
 ## Heat Map 
 
-<p className="text-center">
-    <img src=""/ alt="test">
-    test
+<p align="center">
+    <img src="https://github.com/sammydowds/heat-map/blob/master/public/map_example.PNG" alt="Map Demo" />
 </p>
 
 ### Purpose
