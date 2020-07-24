@@ -1,5 +1,10 @@
 ## Heat Map 
 
+<p className="text-center">
+    <img src=""/ alt="test">
+    test
+</p>
+
 ### Purpose
 This intended to be a re-usable React component for visually representing data. The component itself can be found [here](https://github.com/sammydowds/heat-map/blob/master/src/components/MapComponent.js), and the associated CSS file [here](https://github.com/sammydowds/heat-map/blob/master/src/components/heatmap.css). 
 
