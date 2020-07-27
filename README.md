@@ -1,7 +1,7 @@
 ## Heat Map 
 
 <p align="center">
-    <img src="https://github.com/sammydowds/heat-map/blob/master/public/map_example.PNG" alt="Map Demo" />
+    <img src="https://github.com/sammydowds/heat-map/blob/master/public/demo.PNG" alt="Map Demo" />
 </p>
 
 ### Purpose
@@ -12,7 +12,7 @@ The component accepts an array of objects which you are wanting to map, and a co
 
 Array of objects structured as follows: 
 
-    index = [{'title': string, 'index': integer (scale of 10)},....]
+    index = [{'top': string, 'bottom': string, 'left': string, 'right': string, 'index': integer (scale of 10)},....]
 
 Color:
  
