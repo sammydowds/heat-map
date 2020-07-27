@@ -17,7 +17,13 @@ class HeatMap extends Component {
             }
             return (
                 <div className='grid-item' style={style}>
-                    {square.title}
+                    
+                        <p className='grid-description'>
+                            {square.title}
+                            <p className='grid-number'>
+                                {square.display}
+                            </p>
+                        </p>
                 </div>
             ); 
         });
