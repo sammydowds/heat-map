@@ -18,11 +18,19 @@ class HeatMap extends Component {
             return (
                 <div className='grid-item' style={style}>
                     
-                        <p className='grid-description'>
-                            {square.title}
-                            <p className='grid-number'>
+                        <p className='grid-description align-middle'>
+                            {square.top}
+                            <br></br>
+                            {square.left}&nbsp; 
+                            <span className='grid-number'>
                                 {square.display}
-                            </p>
+                            </span>
+                            &nbsp;{square.right}
+                            <br></br>
+                            <span>
+                                {square.bottom}
+                            </span>
+                            
                         </p>
                 </div>
             ); 

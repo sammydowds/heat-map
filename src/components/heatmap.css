@@ -1,29 +1,32 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: 75px 75px 75px 75px;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
-  }
-  
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 12px;
-    text-align: center;
-    font-family: sans-serif; 
-    height: 75px; 
-  }
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
 
-  .grid-number {
-    font-size: 30px;
-    text-align: center;
-    font-family: Arial, Verdana, sans-serif; 
-  }
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  text-align: center;
+  font-family: sans-serif;
+  height: 100px; 
+}
 
-  .grid-description {
-    font-size: 10px;
-    text-align: center;
-    font-family: Arial, Verdana, sans-serif;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;  
-  }
+.grid-number {
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Verdana, sans-serif; 
+}
+
+.grid-description {
+  font-size: 10px;
+  text-align: center;
+  font-family: Arial, Verdana, sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+  height: 100%; 
+  margin: 10px 10px 5px; 
+  font-weight: 700; 
+}
